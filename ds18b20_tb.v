@@ -19,7 +19,6 @@ module ds18b20_tb
 	(
 		.io_data(io_data),
 		.i_clk(clk),
-		.i_btn(start),
-		.r_ram_9byte()
+		.i_btn(start)
 	);
 endmodule
